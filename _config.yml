@@ -1,0 +1,23 @@
+# Site Settings
+title:               David Seah 
+tagline:             software craftsmanship
+description:         Improve myself as a master craftsman
+#baseurl:            
+github:
+url: 		"http://www.davidseah.github.io"
+author:
+  name:              "David Seah"
+  email:             "ssc1987@gmail.com"
+  twitter:           
+  instagram:         
+  github:            davidseah
+  facebook:          
+  linkedin:          davidseahsc
+paginate:            5
+
+
+# Build settings
+markdown:            kramdown
+highlighter:         rouge
+permalink:           none
+gems:                [jekyll-paginate]
