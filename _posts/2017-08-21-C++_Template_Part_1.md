@@ -9,9 +9,10 @@ image:
   credit: 
   creditlink: ""
 ---
-{% highlight cpp %}
+{% highlight cpp linenos%}
 int main()
 {
+
  return 0; 
 }
 {% endhighlight %}
