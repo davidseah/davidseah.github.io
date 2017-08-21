@@ -9,7 +9,6 @@ image:
   credit: 
   creditlink: ""
 ---
-
 <h2>Why do we need template?</h2> 
 There will be many times when we are writing a program, we do not know the types that we need. 
 There are mainly two ways to solve this program. Object oriented programming and generic programming. 
@@ -18,8 +17,7 @@ OOP deals with types that are not known until run time, while generic programmin
 When we program a generic program, we write code that is independent of any type. Template is the foundation of generic programming. 
 
 <h2>Defining a template</h2>
-Here is how to define a simple template. 
-
+Here is how to define a simple template.
 {% highlight cpp linenos%}
 template <typename T> bool Bigger (const T& V1, const T& V2 )
 {
@@ -32,5 +30,7 @@ template <typename T> bool Bigger (const T& V1, const T& V2 )
     return false;
   }
 }
-
 {% endhighlight %}
+
+When we are calling the function, the compiler will determine the type of the parameter based on the type of parameter that is being passed in.
+If the function is being called multiple times with different parameters each time, the compiler will create multiple instances of the function.
