@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "C++ Template Part 1"
+title: "C++ Template: Part 1"
 categories: CPP
 tags: [documentation,sample]
 image:
@@ -32,5 +32,23 @@ template <typename T> bool Bigger (const T& V1, const T& V2 )
 }
 {% endhighlight %}
 
-When we are calling the function, the compiler will determine the type of the parameter based on the type of parameter that is being passed in.
+When we are calling the function, the compiler will deduce the type of the parameter based on the type of parameter that is being passed in.
 If the function is being called multiple times with different parameters each time, the compiler will create multiple instances of the function.
+Note that a template function must have at least 1 parameter. 
+
+<h2>NonType Template Parameters</h2>
+We can also define template to take in nontype paramters. A non type represent a value rather than a type. 
+A non type template are specified by a specific type name rather than typename or class.
+These values are constant expressions, this allow the compiler to instantiate the template during compound time. 
+
+{% highlight cpp linenos%}
+template <unsigned N, unsigned M> 
+int compare(const char (&P1)[N], const char (&P2)[M])
+{
+    return strcmp(P1,P2);
+}
+
+
+compare("hi", "mom");
+
+{% endhighlight %}
