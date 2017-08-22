@@ -9,14 +9,14 @@ image:
   credit: 
   creditlink: ""
 ---
+There is a common saying that to be a good programmer you have to be lazy. However, do not confuse lazy with intellectual laziness. 
 
-There is a common saying that to be a good programmer you have to be lazy. 
-By that, it means that you should automate everything that can be possibly automatic. While that is fine, there is another type of laziness. Intellectual laziness. This means that on the surface you appear to be hardworking but actually, you are lazy intellectually. 
+You can be "physically" hardworking, which means you put in the hours and stay on your desk longer than any of your peers but that doesn't mean that you are intellectually hardworking. 
+You can be spending hours copying and pasting stuff when you could simply write a script and do it at half the time. Or instead of going deeper and investigate a bug, you change a line and compile it hoping that it works. 
 
-Instead of thinking through the code, going deeper and investigate what actually happens, you took the easy route and just change some code and compile it. And by some luck, it might actually work. But the problem might be a something bigger than it what it seems like it is. 
+As a good software engineer, you need to be intellectually hardworking. Going beyond the surface and deep deeper to find out what is actually happening in the system or framework. You need to know the root of any problem and understanding far deeper than what you actually work on. 
 
-A good software engineer will look deeper into the code, investigate the system and learn the framework. 
-
+If you did on these, maybe you will find yourself saving more time in the long run, and actually able to do more stuff.
 
 
 

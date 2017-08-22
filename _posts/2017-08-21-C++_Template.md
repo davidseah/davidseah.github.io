@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "C++ Template: Part 1"
+title: "C++ Template"
 categories: CPP
 tags: [documentation,sample]
 image:
@@ -52,3 +52,12 @@ int compare(const char (&P1)[N], const char (&P2)[M])
 compare("hi", "mom");
 
 {% endhighlight %}
+
+<h2>Template Compilation</h2>
+The compiler does not generate code when it sees the definition of a template. 
+It will only generate code when it sees the instance of the template. 
+For this very reason that the compiler only generates code when we instance it, this will affect how we organise our code. 
+
+Normally when we call a function, the compiler only needs to know the declaration for the function. 
+Similarly, when we use an object of a class, the compiler only needs to know the definition of the class and not the definition of the member function. 
+For this reason, we will usually place function declaration and class definition in the header file and the definition of normal function and class member function in the source file.
