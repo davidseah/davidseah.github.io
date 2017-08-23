@@ -67,5 +67,13 @@ As a result, headers for template usually include definition as well as declarat
 
 <h2> Compilation Errors </h2>
 There are three stages during which the compiler might flag an error. 
+
 <h3>First stage </h3>
 The first stage is when we compile the template. The compiler can detect syntax errors such as forgetting a bracket or a semicolon.
+
+<h3>Second stage </h3>
+The compiler will check for the number of the arguments is appropriate. Also it will check if a there the two arguments are of the same type. 
+
+<h3>Third stage </h3>
+The third stage happens when the template is being instantiate. It is only then the type related errors can be detected. Depending on how the compiler manages instantiation,
+these errors maybe reported at linker stage. 
