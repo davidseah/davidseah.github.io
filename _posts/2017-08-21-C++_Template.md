@@ -61,3 +61,11 @@ For this very reason that the compiler only generates code when we instance it, 
 Normally when we call a function, the compiler only needs to know the declaration for the function. 
 Similarly, when we use an object of a class, the compiler only needs to know the definition of the class and not the definition of the member function. 
 For this reason, we will usually place function declaration and class definition in the header file and the definition of normal function and class member function in the source file.
+
+However template are different. To instantiate a template function, the compiler needs to have the code that defines a function template or class template member function. 
+As a result, headers for template usually include definition as well as declaration. 
+
+<h2> Compilation Errors </h2>
+There are three stages during which the compiler might flag an error. 
+<h3>First stage </h3>
+The first stage is when we compile the template. The compiler can detect syntax errors such as forgetting a bracket or a semicolon.
