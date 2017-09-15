@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "List_of_C++_Topics"
+title: "List of C++ Topics"
 categories: CPP
 tags: [documentation,sample]
 image:
@@ -23,97 +23,100 @@ My plan is to list down all the C++11 topics and I am going to write a post abou
 
 My aim is that by the time, I covered all these C++11 topics, I am proficient enough to code in modern C++. 
 
-<h2>List of C++ 11 Topics</h2>
-*long long Type 
-*List Initialization
-*nullptr Literal
-*constexpr Variables 
-*Type Alias Declarations
-*The auto Type Specifier 
-*The decltype Type Specifier 
-*In-Class Initializers 
-*Using auto or decltype for Type Abbreviation 
-*Range for Statement 
-*Defining a vector of vectors
-*List Initialization for vectors
-*Container cbegin and cend Functions
-*Library begin and end Functions
-*Using auto or decltype to Simplify Declarations
-*Rounding Rules for Division
-*Assignment from a Braced List of Values
-*sizeof Applied to a Class Member
-*Range for Statement
-*Library initializer_list Class
-*List Initializing a Return Value
-*Declaring a Trailing Return Type
-*Using decltype to Simplify Return Type Declarations
-*constexpr Functions
-*Using = default to Generate a Default Constructor
-*In-class Initializers for Members of Class Type 
-*Delegating Constructors 
-*constexpr Constructors 
-*Using strings for File Names
-*The array and forward_list Containers
-*Container cbegin and cend Functions
-*List Initialization for Containers 
-*Container Nonmember swap Functions 
-*Return Type for Container insert Members 
-*Container emplace Members
-*shrink_to_fit 
-*Numeric Conversion Functions for strings 
-*Lambda Expressions 
-*Trailing Return Type in Lambda Expressions 
-*The Library bind Function 
-*List Initialization of an Associative Container 
-*List Initializing pair Return Type
-*List Initialization of a pair
-*The Unordered Containers 
-*Smart Pointers 
-*The shared_ptr Class 
-*List Initialization of Dynamically Allocated Objects 
-*auto and Dynamic Allocation 
-*The unique_ptr Class
-*The weak_ptr Class
-*Range for Doesn’t Apply to Dynamically Allocated Arrays
-*List Initialization of Dynamically Allocated Arrays
-*auto Can’t Be Used to Allocate an Array
-*allocator::construct Can Use any Constructor 
-*Using = default for Copy-Control Members 
-*Using = delete to Prevent Copying Class Objects
-*Moving Instead of Copying Class Objects
-*Rvalue References
-*The Library move Function
-*Move Constructor and Move Assignment
-*Move Constructors Usually Should Be noexcept 
-*Move Iterators 
-*Reference Qualified Member Functions 
-*The function Class Template
-*explicit Conversion Operators
-*override Specifier for Virtual Functions
-*Preventing Inheritance by Defining a Class as final
-*override and final Specifiers for Virtual Functions
-*Deleted Copy Control and Inheritance
-*Inherited Constructors
-*Declaring a Template Type Parameter as a Friend
-*Template Type Aliases
-*Default Template Arguments for Template Functions
-*Explicit Control of Instantiation
-*Template Functions and Trailing Return Types 
-*Reference Collapsing Rules 
-*static_cast from an Lvalue to an Rvalue
-*The Library forward Function
-*Variadic Templates and Forwarding
-*The Library Tuple Class Template 
-*New bitset Operations
-*The Regular Expression Library 
-*The Random Number Library
-*Floating-Point Format Control
-*The noexcept Exception Specifier 
-*The noexcept Operator
-*Inline Namespaces
-*Inherited Constructors and Multiple Inheritance
-*Scoped enums
-*Specifying the Type Used to Hold an enum 
-*Forward Declarations for enums
-*The Library mem_fn Class Template
-*Union Members of Class Types 
+<h2>C++ 11 Topics</h2>
+* long long Type 
+* List Initialization
+* nullptr Literal
+* constexpr Variables 
+* Type Alias Declarations
+* The auto Type Specifier 
+* The decltype Type Specifier 
+* In-Class Initializers 
+* Using auto or decltype for Type Abbreviation 
+* Range for Statement 
+* Defining a vector of vectors
+* List Initialization for vectors
+* Container cbegin and cend Functions
+* Library begin and end Functions
+* Using auto or decltype to Simplify Declarations
+* Rounding Rules for Division
+* Assignment from a Braced List of Values
+* sizeof Applied to a Class Member
+* Range for Statement
+* Library initializer_list Class
+* List Initializing a Return Value
+* Declaring a Trailing Return Type
+* Using decltype to Simplify Return Type Declarations
+* constexpr Functions
+* Using = default to Generate a Default Constructor
+* In-class Initializers for Members of Class Type 
+* Delegating Constructors 
+* constexpr Constructors 
+* Using strings for File Names
+* The array and forward_list Containers
+* Container cbegin and cend Functions
+* List Initialization for Containers 
+* Container Nonmember swap Functions 
+* Return Type for Container insert Members 
+* Container emplace Members
+* shrink_to_fit 
+* Numeric Conversion Functions for strings 
+* Lambda Expressions 
+* Trailing Return Type in Lambda Expressions 
+* The Library bind Function 
+* List Initialization of an Associative Container 
+* List Initializing pair Return Type
+* List Initialization of a pair
+* The Unordered Containers 
+* Smart Pointers 
+* The shared_ptr Class 
+* List Initialization of Dynamically Allocated Objects 
+* auto and Dynamic Allocation 
+* The unique_ptr Class
+* The weak_ptr Class
+* Range for Doesn’t Apply to Dynamically Allocated Arrays
+* List Initialization of Dynamically Allocated Arrays
+* auto Can’t Be Used to Allocate an Array
+* allocator::construct Can Use any Constructor 
+* Using = default for Copy-Control Members 
+* Using = delete to Prevent Copying Class Objects
+* Moving Instead of Copying Class Objects
+* Rvalue References
+* The Library move Function
+* Move Constructor and Move Assignment
+* Move Constructors Usually Should Be noexcept 
+* Move Iterators 
+* Reference Qualified Member Functions 
+* The function Class Template
+* explicit Conversion Operators
+* override Specifier for Virtual Functions
+* Preventing Inheritance by Defining a Class as final
+* override and final Specifiers for Virtual Functions
+* Deleted Copy Control and Inheritance
+* Inherited Constructors
+* Declaring a Template Type Parameter as a Friend
+* Template Type Aliases
+* Default Template Arguments for Template Functions
+* Explicit Control of Instantiation
+* Template Functions and Trailing Return Types 
+* Reference Collapsing Rules 
+* static_cast from an Lvalue to an Rvalue
+* The Library forward Function
+* Variadic Templates and Forwarding
+* The Library Tuple Class Template 
+* New bitset Operations
+* The Regular Expression Library 
+* The Random Number Library
+* Floating-Point Format Control
+* The noexcept Exception Specifier 
+* The noexcept Operator
+* Inline Namespaces
+* Inherited Constructors and Multiple Inheritance
+* Scoped enums
+* Specifying the Type Used to Hold an enum 
+* Forward Declarations for enums
+* The Library mem_fn Class Template
+* Union Members of Class Types 
+  
+  
+  
