@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "List of C++ Topics"
+title: "List of C++ 11 Topics"
 categories: CPP
 tags: [documentation,sample]
 image:
@@ -24,7 +24,7 @@ My plan is to list down all the C++11 topics and I am going to write a post abou
 My aim is that by the time, I covered all these C++11 topics, I am proficient enough to code in modern C++. 
 
 <h2>C++ 11 Topics</h2>
-* long long Type 
+* [long long Type]({% post_url 2017-09-17-Long-Long-Type %})
 * List Initialization
 * nullptr Literal
 * constexpr Variables 
