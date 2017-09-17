@@ -17,17 +17,17 @@ types.
 The size of the arithemtic types varies across machine. The standard guarantees 
 the minimum size base on the various type. 
 
-| Type             | Minimum size            | 
-|:-----------------|:-----------------------:|
-| bool             | NA                      |
-| char             | 8 bits                  |
-| wchar_t          | 16 bits                 |
-| char16_t         | 16 bits                 |
-| char32_t         | 32 bits                 |
-| short            | 16 bits                 |
-| int              | 16 bits                 |
-| long             | 32 bits                 |
-| long long        | 64 bits                 |
-| float            | 6 significant digits    |
-| double           | 10 significant digits   |
-| long double      | 10 significant digits   |
+| Type             |    Minimum size            | 
+|:-----------------|:--------------------------:|
+| bool             |    NA                      |
+| char             |    8 bits                  |
+| wchar_t          |    16 bits                 |
+| char16_t         |    16 bits                 |
+| char32_t         |    32 bits                 |
+| short            |    16 bits                 |
+| int              |    16 bits                 |
+| long             |    32 bits                 |
+| long long        |    64 bits                 |
+| float            |    6 significant digits    |
+| double           |    10 significant digits   |
+| long double      |    10 significant digits   |
