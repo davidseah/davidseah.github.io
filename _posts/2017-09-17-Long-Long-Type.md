@@ -31,3 +31,6 @@ the minimum size base on the various type.
 | float            |    6 significant digits    |
 | double           |    10 significant digits   |
 | long double      |    10 significant digits   |
+
+The long long type was introduce in C++11 which means that you can stored a variable 
+in at least 64 bits. 
