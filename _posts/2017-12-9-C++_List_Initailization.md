@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "List Initialization
+title: "List Initialization"
 categories: CPP
-tags: [documentation,sample]
+tags: [CPPs]
 image:
   feature: 
   teaser:  
