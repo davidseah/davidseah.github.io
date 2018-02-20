@@ -25,7 +25,7 @@ My aim is that by the time, I covered all these C++11 topics, I am proficient en
 
 <h2>C++ 11 Topics</h2>
 * [long long Type]({% post_url 2017-09-17-Long-Long-Type %})
-* List Initialization
+* [List Initialization]({% post_url 2017-12-9-C++_List_Initailization %})
 * nullptr Literal
 * constexpr Variables 
 * Type Alias Declarations
