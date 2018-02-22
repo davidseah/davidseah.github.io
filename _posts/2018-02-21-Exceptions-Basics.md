@@ -54,7 +54,7 @@ int main()
 
 In this case I am throwing an int, but you can pretty much throw anything including objects. 
 
-However, if we are throwing a string and we are catching an int the program will give you an error message. 
+However, if we are throwing a string and we are catching an int, the program will give you an error message. 
 
 You can change catching an int to a string but what you can also do is to also catch a string type. 
 
@@ -95,3 +95,4 @@ int main()
 
 {% endhighlight %}
 
+<h2> Multiple Errors </h2>
