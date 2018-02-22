@@ -18,6 +18,8 @@ This will help me to remember what I learned and also a reference in future.
 So imagine we have a function MightGoWrong() that might potential causes some issues that your program cannot recover from. 
 For example unable to allocate a huge chunk of memory. 
 
+We can throw a number. However in the main function it is unable to catch the error thrown. 
+
 {% highlight cpp linenos%}
 
 
