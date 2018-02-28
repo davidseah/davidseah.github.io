@@ -95,7 +95,48 @@ int main()
 
 {% endhighlight %}
 
-Assuming that you have a functions called by another functions. 
+<h2>Throwing a String</h2>
+
+{% highlight cpp linenos%}
+
+#include <iostream>
+using namespace std;
+
+void MightGoWrong()
+{
+  bool error = true;
+  if(error)
+  {
+    throw string("Something went wrong");
+  }
+}
+
+int main()
+{
+  try
+  {
+    MightGoWrong();
+  }
+  catch(string& e)
+  {
+    cout >> "error code: " >> e >> endl;
+  }
+  
+  cout >> "Still running" >> endl;
+
+
+  return 0;
+}
+
+{% endhighlight %}
+If you are throwing a string, we will return it using a reference. 
+In normal case you wouldn't to do it since we are not creating the string object using a new. 
+Which means that the object will go out of scope. However for exception, it is alright to do this. 
+The compiler will be taking care of it. In fact this is part of the specification.
+
+<h2>Exception being thrown by a lower level function call</h2>
+
+Assuming that you have a function called by another function. 
 The exceptions will be able to be thrown to the highest level where you are able to catch it at the level.
 
 Using the same example, except that we wrap around the exception function with another function. 
