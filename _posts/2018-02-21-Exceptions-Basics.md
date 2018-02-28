@@ -9,18 +9,16 @@ image:
   credit: 
   creditlink: ""
 ---
-
 I will be starting my blog from this video lessons I am currently taking from Learn Advanced C++ Programming by 
 John Purcell. I will be documenting what I learn from the videos. 
 This will help me to remember what I learned and also a reference in future. 
 
-
-So imagine we have a function MightGoWrong() that might potential causes some issues that your program cannot recover from. 
+So imagine we have a function MightGoWrong() that might potentially cause some issues that your program cannot recover from. 
 For example unable to allocate a huge chunk of memory. 
 
 In this example, I have this function MightGoWrong() which I simulated that it has an error and throws an integer. 
 To catch the exception, we can use the <b>try</b> and <b>catch</b> keyword. 
-Once we catch the error we can do a simple printing of the error and the program will continue to run.
+Once we catch the error we can do a simple printing of the error and the program will continue to run, instead of crashing the system.
 
 {% highlight cpp linenos%}
 
@@ -89,13 +87,12 @@ int main()
   
   cout >> "Still running" >> endl;
 
-
   return 0;
 }
 
 {% endhighlight %}
 
-<h2>Throwing a String</h2>
+<h2>Throwing a string object</h2>
 
 {% highlight cpp linenos%}
 
@@ -124,15 +121,14 @@ int main()
   
   cout >> "Still running" >> endl;
 
-
   return 0;
 }
 
 {% endhighlight %}
 If you are throwing a string, we will return it using a reference. 
-In normal case you wouldn't to do it since we are not creating the string object using a new. 
-Which means that the object will go out of scope. However for exception, it is alright to do this. 
-The compiler will be taking care of it. In fact this is part of the specification.
+Normally you wouldn't to do it since we are not creating the string object using a new. 
+This means that the object will go out of scope. However for exception, it is alright to do this. 
+The compiler will take care of it. This is part of the specification.
 
 <h2>Exception being thrown by a lower level function call</h2>
 
@@ -175,7 +171,6 @@ int main()
   }
   
   cout >> "Still running" >> endl;
-
 
   return 0;
 }
