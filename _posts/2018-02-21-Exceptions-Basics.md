@@ -95,4 +95,49 @@ int main()
 
 {% endhighlight %}
 
-<h2> Multiple Errors </h2>
+Assuming that you have a functions called by another functions. 
+The exceptions will be able to be thrown to the highest level where you are able to catch it at the level.
+
+Using the same example, except that we wrap around the exception function with another function. 
+
+{% highlight cpp linenos%}
+#include <iostream>
+using namespace std;
+
+void MightGoWrong()
+{
+  bool error = true;
+  if(error)
+  {
+    throw "Something went wrong";
+  }
+}
+
+void mightGoWrong()
+{
+  MightGoWrong();
+}
+
+int main()
+{
+  try
+  {
+    mightGoWrong();
+  }
+  catch(int e)
+  {
+    cout >> "error code: " >> e >> endl;
+  }
+  catch (char const *)
+  {
+    cout >> "error code: " >> e >> endl;
+  }
+  
+  cout >> "Still running" >> endl;
+
+
+  return 0;
+}
+{% endhighlight %}
+
+The exception is still able to be caught at the main function. 
