@@ -1,61 +1,19 @@
 ---
 layout: post
-title: "Custom Exceptions"
-categories: CPP
-tags: [CPP]
+title: "A new strategy"
+categories: Process
+tags: [Process]
 image:
   feature: 
   teaser: 
   credit: 
   creditlink: ""
 ---
-You can create your own exceptions. It is a good idea to derive it from the standrd exception. 
+ I am not really sure who reads this blog. My original intention of having this blog is to write down things that I have learned. But I realise that it is not so easy. The barrier is just too high. I feared my writing will not be good enough. 
 
-Let's create an exception. The name of the exception should give you an idea what the exception is about. 
-Since this is an example, I will give it a generic name. In standard exception, it contains a virtual function called what(). 
-We are going to override it. Notice that it has a const throw() keyword in the function. This means that the function cannot throw an exception.
-This check is at runtime and not compile time. So it is not a good idea to use it. 
+I think to use this blog as a showcase of my skills is not such a good idea. 
+So now I want to change the focus of this blog to simply enjoying the process of documenting things that I have learned. No pressure from external forces. 
 
-Next, I am going to create a class Test which throws myException during construction. 
+I will do a timebox every day. Writing whatever I feel like. The result I hope is that I improve my writing and my programming skills. 
 
-In my main, I create a Test Object, which I will try to catch the error. Of course, we have to catch the error with the type myException. 
-{% highlight cpp linenos%}
-
-#include <iostream>
-#include <exception>
-
-using namespace std;
-
-class myException: public exception
-{
-  public:
-  virtual const char* what() const throw(){
-    return "Something bad happen here";
-  }
-};
-
-class Test
-{
-  public:
-  Test()
-  {
-    throw myException();
-  }
-};
-
-int main()
-{
-  try
-  {
-  Test test;
-  }
-  catch(myException & e)
-  {
-    cout  << "error " << e.what() << endl;
-  }
-
-  return 0;
-}
-
-
-{% endhighlight %}
+Just doing easy things over a period of time will make much improvement over the years. 
