@@ -78,7 +78,7 @@ plugins:
 
 # Collections
 collections:
-  recipes:
+  travels:
     output: true
     permalink: /:collection/:path/
 
@@ -94,8 +94,8 @@ defaults:
       share: true
   # Recipe defaults
   - scope:
-      path: "_recipes"
-      type: recipes
+      path: "_travels"
+      type: travels
     values:
       layout: post
       comments: true
