@@ -16,9 +16,9 @@
 # theme: jekyll-theme-so-simple
 remote_theme: mmistakes/so-simple-theme
 locale: en-US
-title: "A place where I write about things I do and live"
+title: "David Seah Blog"
 description: "Programming and stuff"
-baseurl: https://davidseah.github.io/# the subpath of your site, e.g. "/blog"
+baseurl: # the subpath of your site, e.g. "/blog"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 logo: "/images/so-simple-site-logo.png" # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
@@ -32,10 +32,10 @@ google_fonts:
     weights: "400,400i,700,700i"
 google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
 disqus:
-  shortname: #david_seah # Disqus shortname, e.g. "my_disqus_shortname"
+  shortname: # Disqus shortname, e.g. "my_disqus_shortname"
 twitter:
   username: # site's Twitter username, e.g. "mmistakes"
-copyright: "Just another blog"
+copyright: "David Seah blog"
 
 # Liquid
 liquid:
@@ -82,9 +82,6 @@ collections:
   travels:
     output: true
     permalink: /:collection/:path/
-  projects:
-    output: true
-    permalink: /:collection/:path/
 
 # Front Matter Defaults
 defaults:
@@ -112,9 +109,9 @@ author:
   email:
   twitter:
   links:
-    - title: Instagram
-      url: https://www.instagram.com/david_seah/
-      icon: fab fa-instagram
+    - title:
+      url:
+      icon:
 
 # Footer Links
 footer_links:
