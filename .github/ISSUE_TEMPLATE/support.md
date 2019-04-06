@@ -6,13 +6,13 @@ about: "Having trouble working with the theme?"
 <!--
   Before opening a new issue please:
   
-  - Verify you have the latest versions of Jekyll and Minimal Mistakes 
+  - Verify you have the latest versions of Jekyll and So Simple 
     installed by running `bundle update`.
   - Thoroughly read the theme's documentation at
-    https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - Search all issues at https://github.com/mmistakes/minimal-mistakes/issues 
+    https://github.com/mmistakes/so-simple-theme
+  - Search all issues at https://github.com/mmistakes/so-simple-theme/issues 
     for solutions and to avoid duplication.
-  - Ask for help at http://talk.jekyllrb.com/
+  - Ask for help at https://talk.jekyllrb.com/
   
   After exhausting these suggestions ask your question below.
 
