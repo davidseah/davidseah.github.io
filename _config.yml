@@ -120,19 +120,19 @@ author:
   twitter:
   links:
     - title: Instagram
-      url: https://instagram.com/mmistakes
+      url: https://www.instagram.com/david_seah/
       icon: fab fa-instagram
     - title: GitHub
-      url: https://github.com/mmistakes
+      url: https://github.com/davidseah
       icon: fab fa-github-square
 
 # Footer Links
 footer_links:
   - title: Instagram
-    url: https://instagram.com/mmistakes
+    url:  https://www.instagram.com/david_seah/
     icon: fab fa-instagram
   - title: GitHub
-    url: https://github.com/mmistakes
+    url: https://github.com/davidseah
     icon: fab fa-github-square
     # url: atom.xml
     #icon: fas fa-rss-square
