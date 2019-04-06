@@ -106,7 +106,7 @@ defaults:
       share: true
   - scope:
       path: "_projects"
-      type: projectss
+      type: projects
     values:
       layout: post
       comments: true
