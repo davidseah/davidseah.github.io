@@ -1,7 +1,7 @@
 ---
-title: Travels
+title: Projects
 layout: collection
-permalink: /travels/
-collection: travels
+permalink: /projects/
+collection: projects
 entries_layout: grid
 ---
