@@ -13,17 +13,17 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-theme: jekyll-theme-so-simple
-# remote_theme: mmistakes/so-simple-theme
+# theme: jekyll-theme-so-simple
+remote_theme: mmistakes/so-simple-theme
 locale: en-US
-title: "So Simple Development Site"
-description: "A simple Jekyll theme for words and pictures."
-baseurl: "/example" # the subpath of your site, e.g. "/blog"
+title: "David Seah Blog"
+description: "Programming and stuff"
+baseurl: # the subpath of your site, e.g. "/blog"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-logo: "/images/so-simple-site-logo.png" # path of site logo, e.g. "/assets/images/logo.png"
+logo: "/images/so-simple-site-logo.png" # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
-read_time: true
-words_per_minute: 200
+read_time: # reading time estimates, e.g. true
+words_per_minute: # 200
 mathjax: true
 google_fonts:
   - name: "Source Sans Pro"
@@ -34,13 +34,14 @@ google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
 disqus:
   shortname: # Disqus shortname, e.g. "my_disqus_shortname"
 twitter:
-  username: mmistakes # site's Twitter username
+  username: # site's Twitter username, e.g. "mmistakes"
 
 # Liquid
 liquid:
   error_mode: strict
 
 # Build settings
+permalink: /:categories/:title/
 markdown: kramdown
 feed:
   path: atom.xml
@@ -50,11 +51,11 @@ paginate: 10
 paginate_path: /page:num/
 
 # Search
-search_full_content: false
+search_full_content: false # can have performance implications for large sites
 
 # Taxonomy pages
-category_archive_path: "/categories/#"
-tag_archive_path: "/tags/#"
+# category_archive_path: "/categories/#"
+# tag_archive_path: "/tags/#"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -82,7 +83,7 @@ collections:
 
 # Front Matter Defaults
 defaults:
-  # Post defaults
+  # Posts defaults
   - scope:
       path: "_posts"
       type: posts
@@ -101,32 +102,17 @@ defaults:
 
 # Site Author
 author:
-  name: Michael Rose
-  picture: /images/michael-rose-photo.jpg
+  name:
+  picture:
   email:
-  twitter: mmistakes
+  twitter:
   links:
-    - title: Twitter
-      url: https://twitter.com/mmistakes
-      icon: fab fa-twitter-square
-    - title: Instagram
-      url: https://instagram.com/mmistakes
-      icon: fab fa-instagram
-    - title: GitHub
-      url: https://github.com/mmistakes
-      icon: fab fa-github-square
+    - title:
+      url:
+      icon:
 
 # Footer Links
 footer_links:
-  - title: Twitter
-    url: https://twitter.com/mmistakes
-    icon: fab fa-twitter-square
-  - title: Instagram
-    url: https://instagram.com/mmistakes
-    icon: fab fa-instagram
-  - title: GitHub
-    url: https://github.com/mmistakes
-    icon: fab fa-github-square
   - title: Feed
     url: atom.xml
     icon: fas fa-rss-square
