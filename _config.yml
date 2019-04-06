@@ -103,8 +103,8 @@ defaults:
 
 # Site Author
 author:
-  name:
-  picture:
+  name: David Seah
+  picture: /images/davidseah.jpg
   email:
   twitter:
   links:
@@ -115,5 +115,5 @@ author:
 # Footer Links
 footer_links:
   - title: Feed
-    url: atom.xml
+    # url: atom.xml
     #icon: fas fa-rss-square
