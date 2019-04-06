@@ -82,6 +82,9 @@ collections:
   travels:
     output: true
     permalink: /:collection/:path/
+  projects:
+    output: true
+    permalink: /:collection/:path/
 
 # Front Matter Defaults
 defaults:
@@ -97,6 +100,13 @@ defaults:
   - scope:
       path: "_travels"
       type: travels
+    values:
+      layout: post
+      comments: true
+      share: true
+  - scope:
+      path: "_projects"
+      type: projectss
     values:
       layout: post
       comments: true
