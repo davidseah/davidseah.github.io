@@ -6,8 +6,8 @@
     https://github.com/mmistakes/so-simple-theme/blob/master/LICENSE
 -->
 <html lang="{{ page.lang | default: site.lang | default: 'en-US' }}" class="no-js">
-  {% include head.html %}
 <link rel="shortcut icon" type="image/png" href="favicon.png">
+  {% include head.html %}
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %} {% if page.entries_layout == 'grid' %}page--wide{% endif %} {{ page.title | slugify }}">
     {% include skip-links.html %}
     {% include navigation.html %}
