@@ -13,3 +13,8 @@ But the issue is that I do not know anything about Vulkan.
 I always wanted to learn it but found no time or motivation.
 So this is the perfect opportunity to learn it. 
 I will try to document my journey over here.
+
+* Strategy
+1. Finish all the exercise in https://vulkan-tutorial.com/
+2. Read Vulkan Programming Guide: The Official Guide to Learning Vulkan
+3. Build a graphics engine using Vulkan
