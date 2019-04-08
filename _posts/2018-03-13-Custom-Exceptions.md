@@ -5,7 +5,7 @@ categories:
 tags:
 # last_modified_at: 2017-03-09T14:25:52-05:00
 ---
-You can create your own exceptions. It is a good idea to derive it from the standrd exception. 
+You can create your own exceptions. It is a good idea to derive it from the standard exception. 
 
 Let's create an exception. The name of the exception should give you an idea what the exception is about. 
 Since this is an example, I will give it a generic name. In standard exception, it contains a virtual function called what(). 
