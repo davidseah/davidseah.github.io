@@ -114,7 +114,7 @@ defaults:
       layout: post
       comments: true
       share: true
-- scope:
+  - scope:
       path: "_books"
       type: books
     values:
