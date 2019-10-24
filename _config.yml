@@ -125,6 +125,14 @@ defaults:
       layout: post
       comments: true
       share: true
+   - scope:
+      path: "_books"
+      type: books
+    values:
+      layout: post
+      comments: true
+      share: true
+   
 
 # Site Author
 author:
