@@ -126,8 +126,8 @@ defaults:
       comments: true
       share: true
    - scope:
-      path: "_books"
-      type: books
+      path: https://davidseah.gitbook.io/davidseah/
+      type: knowledge bank
     values:
       layout: post
       comments: true
