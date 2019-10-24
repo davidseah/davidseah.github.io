@@ -88,9 +88,6 @@ collections:
   books:
     output: true
     permalink: /:collection/:path/
-  knowledgebank:
-    output: true
-    permalink: /:collection/:path/
   
 
 # Front Matter Defaults
@@ -121,13 +118,6 @@ defaults:
   - scope:
       path: "_books"
       type: books
-    values:
-      layout: post
-      comments: true
-      share: true
-   - scope:
-      path: "_knowledgebank"
-      type: knowledgebank
     values:
       layout: post
       comments: true
