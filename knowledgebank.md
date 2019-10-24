@@ -1,8 +1,8 @@
 ---
-title: Travels
+title: knowledgebank
 layout: collection
-permalink: /travels/
-collection: travels
+permalink: /_knowledgebank/
+collection: _knowledgebank
 entries_layout: grid
 ---
 
