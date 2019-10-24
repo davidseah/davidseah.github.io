@@ -88,9 +88,9 @@ collections:
   books:
     output: true
     permalink: /:collection/:path/
-  knowledge bank:
+  knowledgebank:
     output: true
-    permalink: https://davidseah.gitbook.io/davidseah/
+    permalink: /:collection/:path/
   
 
 # Front Matter Defaults
