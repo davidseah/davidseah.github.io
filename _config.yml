@@ -127,7 +127,7 @@ defaults:
       share: true
    - scope:
       path: "_knowledgebank"
-      type: knowledge bank
+      type: knowledgebank
     values:
       layout: post
       comments: true
