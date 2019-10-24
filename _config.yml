@@ -126,7 +126,7 @@ defaults:
       comments: true
       share: true
    - scope:
-      path: https://davidseah.gitbook.io/davidseah/
+      path: "_knowledgebank"
       type: knowledge bank
     values:
       layout: post
