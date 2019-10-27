@@ -1,0 +1,13 @@
+---
+label: David Seah
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: list
+  name: categories
+  label: categories
+- type: text
+  name: tags
+  label: tags
