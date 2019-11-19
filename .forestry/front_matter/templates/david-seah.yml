@@ -12,4 +12,5 @@ fields:
   name: tags
   label: tags
 pages:
+- _posts/learn-by-project-work.md
 - _posts/2019-10-27-creating-my-personal-wiki-page.md
